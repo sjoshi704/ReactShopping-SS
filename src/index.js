@@ -8,6 +8,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import NetflixIndexComponent from './Components/NetflixIndexComponent';
 import DataBinding from './Components/DataBinding';
+import { DataBindingJsonData } from './Components/DataBindingJSONData';
+import { ApiDataFetched } from './Components/APIDataFetched';
+
+
 
 
 
@@ -16,7 +20,10 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
   {/* <NetflixIndexComponent> </NetflixIndexComponent> */}
-  <DataBinding></DataBinding>
+  {/* <DataBinding></DataBinding> */}
+  {/* <DataBindingJsonData> </DataBindingJsonData> */}
+  <ApiDataFetched> </ApiDataFetched>
+ 
   </React.StrictMode>
 );
 
