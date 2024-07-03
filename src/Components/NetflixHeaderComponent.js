@@ -1,9 +1,11 @@
+import NetflixLogo from './Netflix-Logo.webp';
+
 export default function NetflixHeaderComponent() {
     return <>
         <div className="d-flex justify-content-between p-3 m-3">
-            <div className="text-danger">
+            <div className=" logoImg">
                 <h3 className="text-danger"> NETFLIX</h3>
-                {/* <img src="./netflix Logo.webp" alt=""/> */}
+                {/* <img src={NetflixLogo} alt="Netflix Logo"/> */}
             </div>
             <div className="input-group w-25">
                 <select className="form-control">
