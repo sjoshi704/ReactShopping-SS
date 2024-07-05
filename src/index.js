@@ -6,10 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import NetflixIndexComponent from './Components/NetflixIndexComponent';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+// import NetflixIndexComponent from './Components/NetflixIndexComponent';
 import DataBinding from './Components/DataBinding';
 import { DataBindingJsonData } from './Components/DataBindingJSONData';
 import { ApiDataFetched } from './Components/APIDataFetched';
+import {ShoppingComponent} from './Components/ShoppingComponent';
+
 
 
 
@@ -22,7 +25,8 @@ root.render(
   {/* <NetflixIndexComponent> </NetflixIndexComponent> */}
   {/* <DataBinding></DataBinding> */}
   {/* <DataBindingJsonData> </DataBindingJsonData> */}
-  <ApiDataFetched> </ApiDataFetched>
+  {/* <ApiDataFetched> </ApiDataFetched> */}
+ <ShoppingComponent> </ShoppingComponent>
  
   </React.StrictMode>
 );
