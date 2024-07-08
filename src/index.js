@@ -7,10 +7,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-// import NetflixIndexComponent from './Components/NetflixIndexComponent';
+import NetflixIndexComponent from './Components/NetflixIndexComponent';
 import DataBinding from './Components/DataBinding';
 import { DataBindingJsonData } from './Components/DataBindingJSONData';
 import { ApiDataFetched } from './Components/APIDataFetched';
+import { TwoWayEventBindingComponent } from './Components/TwoWayEventBindingComponent';
+import { FormTwoWayEventBinding } from './Components/FormTwoWayEventBinding';
 import {ShoppingComponent} from './Components/ShoppingComponent';
 
 
@@ -22,12 +24,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-  {/* <NetflixIndexComponent> </NetflixIndexComponent> */}
+  {/* <NetflixIndexComponent> </NetflixIndexComponent>/ */}
   {/* <DataBinding></DataBinding> */}
   {/* <DataBindingJsonData> </DataBindingJsonData> */}
   {/* <ApiDataFetched> </ApiDataFetched> */}
  <ShoppingComponent> </ShoppingComponent>
- 
+ {/* <TwoWayEventBindingComponent> </TwoWayEventBindingComponent> */}
+ {/* <FormTwoWayEventBinding> </FormTwoWayEventBinding> */}
   </React.StrictMode>
 );
 
