@@ -15,6 +15,7 @@ import { TwoWayEventBindingComponent } from './Components/TwoWayEventBindingComp
 import { FormTwoWayEventBinding } from './Components/FormTwoWayEventBinding';
 import {ShoppingComponent} from './Components/ShoppingComponent';
 import FormComponent from './FormHandling/FormComponent';
+import { FormikDemo } from './FormHandling/FormikDemo';
 
 
 
@@ -40,7 +41,9 @@ root.render(
 
  {/* <FormTwoWayEventBinding> </FormTwoWayEventBinding> */}
 
- <FormComponent>  </FormComponent>
+ {/* <FormComponent>  </FormComponent> */}
+
+<FormikDemo>  </FormikDemo>
   </React.StrictMode>
 );
 
