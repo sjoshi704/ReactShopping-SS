@@ -14,6 +14,8 @@ import { ApiDataFetched } from './Components/APIDataFetched';
 import { TwoWayEventBindingComponent } from './Components/TwoWayEventBindingComponent';
 import { FormTwoWayEventBinding } from './Components/FormTwoWayEventBinding';
 import {ShoppingComponent} from './Components/ShoppingComponent';
+import FormComponent from './FormHandling/FormComponent';
+
 
 
 
@@ -32,11 +34,13 @@ root.render(
   
   {/* <ApiDataFetched> </ApiDataFetched> */}
 
-   <ShoppingComponent> </ShoppingComponent>
+   {/* <ShoppingComponent> </ShoppingComponent> */}
 
  {/* <TwoWayEventBindingComponent> </TwoWayEventBindingComponent> */}
 
  {/* <FormTwoWayEventBinding> </FormTwoWayEventBinding> */}
+
+ <FormComponent>  </FormComponent>
   </React.StrictMode>
 );
 
