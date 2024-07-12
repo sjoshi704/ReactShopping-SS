@@ -17,6 +17,7 @@ import {ShoppingComponent} from './Components/ShoppingComponent';
 import FormComponent from './FormHandling/FormComponent';
 import { FormikDemo } from './FormHandling/FormikDemo';
 import { FormikValidations } from './FormHandling/FormikValidations';
+import { FormikYUPValidations } from './FormHandling/YUPValidations/FormikYUPValidations';
 
 
 
@@ -46,7 +47,9 @@ root.render(
 
 {/* <FormikDemo>  </FormikDemo> */}
 
-<FormikValidations> </FormikValidations>
+{/* <FormikValidations> </FormikValidations> */}
+ .
+ <FormikYUPValidations>   </FormikYUPValidations>
   </React.StrictMode>
 );
 
