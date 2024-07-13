@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import "../Components/States";
-import { indianCities } from '../Components/States';
+import "../Components/Cities";
+import { indianCities } from '../Components/Cities';
 
 export default function FormComponent() {
     //    type-1

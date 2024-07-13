@@ -1,6 +1,6 @@
 import { Formik, useFormik } from "formik";
-import "../Components/States"
-import { indianCities } from "../Components/States";
+import "../Components/Cities"
+import { indianCities } from "../Components/Cities";
 
 
 

@@ -18,6 +18,7 @@ import FormComponent from './FormHandling/FormComponent';
 import { FormikDemo } from './FormHandling/FormikDemo';
 import { FormikValidations } from './FormHandling/FormikValidations';
 import { FormikYUPValidations } from './FormHandling/YUPValidations/FormikYUPValidations';
+import YUPFormikComponent from './FormHandling/YUPValidations/YUPFormikComponent';
 
 
 
@@ -48,8 +49,10 @@ root.render(
 {/* <FormikDemo>  </FormikDemo> */}
 
 {/* <FormikValidations> </FormikValidations> */}
- .
- <FormikYUPValidations>   </FormikYUPValidations>
+ 
+ {/* <FormikYUPValidations>   </FormikYUPValidations> */}
+ 
+ <YUPFormikComponent></YUPFormikComponent>
   </React.StrictMode>
 );
 

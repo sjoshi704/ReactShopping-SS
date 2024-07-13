@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import "./States";
-import { indianCities } from './States';
+import "./Cities";
+import { indianCities } from './Cities';
 
 export function FormTwoWayEventBinding() {
     const [Product,setProduct]=useState({Pname:'',price:0, city:'',stock:false})

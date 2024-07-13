@@ -1,6 +1,6 @@
 import { useFormik } from 'formik';
 import React from 'react'
-
+//  manual formik validation
 export function FormikValidations() {
 
     const verifyUserDetils = (userDetails) => {
