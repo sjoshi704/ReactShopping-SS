@@ -19,6 +19,7 @@ import { FormikDemo } from './FormHandling/FormikDemo';
 import { FormikValidations } from './FormHandling/FormikValidations';
 import { FormikYUPValidations } from './FormHandling/YUPValidations/FormikYUPValidations';
 import YUPFormikComponent from './FormHandling/YUPValidations/YUPFormikComponent';
+import { ContextDemo } from './HOOKS/UseContextHook/ContextDemo';
 
 
 
@@ -52,7 +53,9 @@ root.render(
  
  {/* <FormikYUPValidations>   </FormikYUPValidations> */}
  
- <YUPFormikComponent></YUPFormikComponent>
+ {/* <YUPFormikComponent></YUPFormikComponent> */}
+
+ <ContextDemo> </ContextDemo>
   </React.StrictMode>
 );
 
