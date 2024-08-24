@@ -20,6 +20,7 @@ import { FormikValidations } from './FormHandling/FormikValidations';
 import { FormikYUPValidations } from './FormHandling/YUPValidations/FormikYUPValidations';
 import YUPFormikComponent from './FormHandling/YUPValidations/YUPFormikComponent';
 import { ContextDemo } from './HOOKS/UseContextHook/ContextDemo';
+import ShoppingIndex from './Shopping/ShoppingIndex';
 
 
 
@@ -55,7 +56,9 @@ root.render(
  
  {/* <YUPFormikComponent></YUPFormikComponent> */}
 
- <ContextDemo> </ContextDemo>
+ {/* <ContextDemo> </ContextDemo> */}
+
+ <ShoppingIndex> </ShoppingIndex>
   </React.StrictMode>
 );
 
