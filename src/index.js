@@ -13,7 +13,7 @@ import { DataBindingJsonData } from './Components/DataBindingJSONData';
 import { ApiDataFetched } from './Components/APIDataFetched';
 import { TwoWayEventBindingComponent } from './Components/TwoWayEventBindingComponent';
 import { FormTwoWayEventBinding } from './Components/FormTwoWayEventBinding';
-import {ShoppingComponent} from './Components/ShoppingComponent';
+import { ShoppingComponent } from './Components/ShoppingComponent';
 import FormComponent from './FormHandling/FormComponent';
 import { FormikDemo } from './FormHandling/FormikDemo';
 import { FormikValidations } from './FormHandling/FormikValidations';
@@ -21,6 +21,8 @@ import { FormikYUPValidations } from './FormHandling/YUPValidations/FormikYUPVal
 import YUPFormikComponent from './FormHandling/YUPValidations/YUPFormikComponent';
 import { ContextDemo } from './HOOKS/UseContextHook/ContextDemo';
 import ShoppingIndex from './Shopping/ShoppingIndex';
+import { IShopIndex } from './IShop/IShopIndex';
+
 
 
 
@@ -32,33 +34,34 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-  {/* <NetflixIndexComponent> </NetflixIndexComponent>/ */}
+    {/* <NetflixIndexComponent> </NetflixIndexComponent>/ */}
 
-  {/* <DataBinding></DataBinding> */}
-  
-  {/* <DataBindingJsonData> </DataBindingJsonData> */}
-  
-  {/* <ApiDataFetched> </ApiDataFetched> */}
+    {/* <DataBinding></DataBinding> */}
 
-   {/* <ShoppingComponent> </ShoppingComponent> */}
+    {/* <DataBindingJsonData> </DataBindingJsonData> */}
 
- {/* <TwoWayEventBindingComponent> </TwoWayEventBindingComponent> */}
+    {/* <ApiDataFetched> </ApiDataFetched> */}
 
- {/* <FormTwoWayEventBinding> </FormTwoWayEventBinding> */}
+    {/* <ShoppingComponent> </ShoppingComponent> */}
 
- {/* <FormComponent>  </FormComponent> */}
+    {/* <TwoWayEventBindingComponent> </TwoWayEventBindingComponent> */}
 
-{/* <FormikDemo>  </FormikDemo> */}
+    {/* <FormTwoWayEventBinding> </FormTwoWayEventBinding> */}
 
-{/* <FormikValidations> </FormikValidations> */}
- 
- {/* <FormikYUPValidations>   </FormikYUPValidations> */}
- 
- {/* <YUPFormikComponent></YUPFormikComponent> */}
+    {/* <FormComponent>  </FormComponent> */}
 
- {/* <ContextDemo> </ContextDemo> */}
+    {/* <FormikDemo>  </FormikDemo> */}
 
- <ShoppingIndex> </ShoppingIndex>
+    {/* <FormikValidations> </FormikValidations> */}
+
+    {/* <FormikYUPValidations>   </FormikYUPValidations> */}
+
+    {/* <YUPFormikComponent></YUPFormikComponent> */}
+
+    {/* <ContextDemo> </ContextDemo> */}
+
+    {/* <ShoppingIndex> </ShoppingIndex> */}
+  <IShopIndex> </IShopIndex>
   </React.StrictMode>
 );
 
