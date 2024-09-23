@@ -38,6 +38,13 @@ export function IShopIndex() {
                          <Route path="login" element={<IShopLogin/>}/>
                          <Route path="register" element={<IShopRegister/>}/>
                          <Route path="dashboard" element={<IShopDashboard/>}/>
+                         <Route path="errorpage" element={<div>
+                            <h3 className='text-danger'> 
+                                Invalid Credientials
+                            </h3>
+                            <Link to="/login"> Try Again</Link>
+                         </div>}/>
+
 
                         </Routes>
                     </main>
